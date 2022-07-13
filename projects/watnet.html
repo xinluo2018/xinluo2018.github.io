@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<html>
+ <head>
+  <title>Xin Luo Homepage</title>
+</head>
+<body>
+  <h1>WatNet</h1>
+  <p>
+    This paper is about surface water mapping by using deep learning method. 
+    [ <a href="https://github.com/xinluo2018/WatNet"><b>Code</b></a>
+      and <a href="https://zenodo.org/record/5205674"><b>Dataset</b><a> ]
+  </p>
+  <h2>- Model</h2>
+  <p>
+    We use Deeplabv3+ with MobileNetv2 backbone as the main model structure, additionly, some simple yet effective modifications are designed for improving the satellite image-based surface water mapping.
+  </p>
+  <div>
+    <img src="/assets/images/watnet/watnet_structure.png">
+  </div>
+
+  <h2>- Dataset</h2>
+  <p style="text-align: left;">
+    Surface water dataset for Deep learning could be downloaded from Zenodo.
+  <p>
+  <div>
+    <img src="/assets/images/watnet/dataset.png">
+    <img src="/assets/images/watnet/label_sam_1.png", style="width: 46%; margin-top: 3%;">&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="/assets/images/watnet/label_sam_2.png", style="width: 46%;">
+  </div>
+
+  <h2>- Performance</h2>
+  <h3>-- Accuracy for surface water mapping</h3>
+    <img src="/assets/images/watnet/accuracy-compare.png">
+  <h3>-- Examples for surface water mapping</h3>
+  <h4>Urab Region</h4>
+    <img src="/assets/images/watnet/urban-test.png">
+  <h4>Cloudy Region</h4>
+    <img src="/assets/images/watnet/cloudy-test.png">
+  <h4>Mountainous region</h4>
+    <img src="/assets/images/watnet/mountain-test.png">
+</body>

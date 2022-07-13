@@ -1,0 +1,124 @@
+
+/* navigation bar */
+
+.head {
+  background-color: white;
+  position: fixed;
+  width: 50%;
+  height: 10%;
+  z-index: 100;
+  text-align: left;
+  left: 40%;
+  border-radius: 40%;
+}
+
+.head li {
+  display: inline-block;
+  margin-left: 0px;
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.head li:hover {
+  cursor: pointer;
+  border-bottom: 1.5px solid #01228d;
+}
+
+.head li:active {
+  background-color: 1.5px solid #01228d;
+}
+
+
+.head a {
+  color: #01228d;
+  text-decoration:none
+} 
+
+/* profile photo */
+.profile-photo {
+  display: block;
+  position: fixed;
+  text-align: center;
+  width: 20%;
+  left: 5%;
+}
+
+.profile-top {
+  padding: 60px 0 20px 0;
+  align-items: center;
+}
+
+.profile-top img {
+  width: 50%;
+  border-radius: 50%;
+}
+
+.profile-top p {
+  margin: 5px 0 5px 0;
+  color: black;
+}
+
+.profile-top .name {
+  font-size: 25px;
+  margin-top: 5%;
+}
+
+.profile-top .institution {
+  font-size: 17px;
+  margin-top: 0;
+}
+
+.profile-middle {  
+  padding-bottom: 20px;
+}
+
+.profile-middle .social-menu li {
+  height: 35px;
+  font-size: 16;
+  list-style-type: none;
+  margin-left: -15%;
+}
+
+.profile-middle .social-menu i {
+  width:30%; 
+}
+
+.profile-middle a {
+  text-decoration: none;  
+}
+
+.profile-middle .icon-name {
+  display: inline-block;
+}
+
+.profile-middle .icon-name:hover {
+  border-bottom: 1.5px solid rgba(80, 79, 79, 0.979);
+}
+
+
+.profile-bottom {
+  text-align: center;
+}
+
+/* Content */
+.content {
+  height: 90%;
+  width: 60%;
+  position: absolute;
+  padding-top: 7%;
+  left: 30%;
+}
+
+.content p {
+  text-align: justify;
+  width: 95%;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.content img {
+  width: 95%;
+  align-items: center;
+}
