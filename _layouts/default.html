@@ -14,21 +14,9 @@ layout: compress
     <!-- navigation bar -->
     <div class="head">
       <ul class="head_text">
-        <li>
-          <a href="/index.html" >Xin Luo Homepage</a>
-        </li>
-        <li>
-          <a href="/publications.html">Publications</a>
-        </li>
-        <!-- <li>
-          <a href="#">Talks</a>
-        </li> -->
-        <li>
-          <a href="/fundings.html">Fundings</a>
-        </li>
-        <li>
-          <a href="#">Field work</a>
-        </li>
+        {% for item in site.data.nav %}
+        <li><a href="{{item.link}}">{{item.title}}</a></li>
+        {% endfor %}
       </ul>
     </div>
 
@@ -42,22 +30,28 @@ layout: compress
 
       <div class="profile-middle">
         <div class="social-menu">
-          <li>
-            <a href="https://github.com/xinluo2018">
-              <i class="fab fa-github"></i><p class="icon-name">Github</p></a>          
-          </li>
-          <li>
-            <a href="https://twitter.com/xinluo2020">
-            <i class="fab fa-twitter"></i><p class="icon-name">Twitter</p> </a>
-          </li>           
-          <li>
-            <a href="https://weibo.com/">
-              <i class="fab fa-weibo"></i><p class="icon-name">Weibo</p></a>          
-          </li>
-          <li>
-            <a href="https://www.zhihu.com/people/luo411795604">
-            <i class="fab fa-zhihu"></i><p class="icon-name">Zhihu</p></a> 
-          </li>
+          <ur>
+            <li>
+              <a href="https://github.com/xinluo2018"><i class="fab fa-github"></i>
+                <p class="icon-name">Github</p>
+              </a>          
+            </li>
+            <li>
+              <a href="https://twitter.com/xinluo2020"><i class="fab fa-twitter"></i>
+                <p class="icon-name">Twitter</p>
+              </a>
+            </li>           
+            <li>
+              <a href="https://weibo.com/"><i class="fab fa-weibo"></i>
+                <p class="icon-name">Weibo</p>
+              </a>          
+            </li>
+            <li>
+              <a href="https://www.zhihu.com/people/luo411795604"><i class="fab fa-zhihu"></i>
+                <p class="icon-name">Zhihu</p>
+              </a> 
+            </li>
+          </ur>
         </div>
       </div>
 
@@ -73,7 +67,7 @@ layout: compress
             Kunming, 650500, China.<br>
           </address>
         </p>
-      </div>   
+      </div>  
     </div>  
 
     <div class="content"> 

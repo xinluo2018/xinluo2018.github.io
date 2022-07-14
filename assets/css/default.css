@@ -46,7 +46,8 @@
 }
 
 .profile-top {
-  padding: 60px 0 20px 0;
+  margin-top: 15%;
+  margin-bottom: 5%;
   align-items: center;
 }
 
@@ -56,29 +57,28 @@
 }
 
 .profile-top p {
-  margin: 5px 0 5px 0;
+  margin-top: 5%;
+  margin-bottom: 5%;
   color: black;
 }
 
 .profile-top .name {
-  font-size: 25px;
-  margin-top: 5%;
+  font-size:x-large;
 }
 
 .profile-top .institution {
-  font-size: 17px;
-  margin-top: 0;
+  font-size: large;
 }
 
 .profile-middle {  
-  padding-bottom: 20px;
+  padding-bottom: -5%;
 }
 
 .profile-middle .social-menu li {
-  height: 35px;
-  font-size: 16;
+  font-size:medium;
   list-style-type: none;
   margin-left: -15%;
+  line-height: 50%;
 }
 
 .profile-middle .social-menu i {
@@ -101,6 +101,7 @@
 .profile-bottom {
   text-align: center;
 }
+
 
 /* Content */
 .content {
