@@ -52,7 +52,7 @@
 }
 
 .profile-top img {
-  width: 50%;
+  width: 55%;
   border-radius: 50%;
 }
 
@@ -63,15 +63,17 @@
 }
 
 .profile-top .name {
-  font-size:x-large;
+  font-size:22px;
 }
 
 .profile-top .institution {
-  font-size: large;
+  font-size: 17px;
+  margin-top: -2%;  
 }
 
 .profile-middle {  
-  padding-bottom: -5%;
+  margin-top: 6%;  
+  margin-bottom: 6%;
 }
 
 .profile-middle .social-menu li {
@@ -108,14 +110,18 @@
   height: 90%;
   width: 60%;
   position: absolute;
-  padding-top: 7%;
+  padding-top: 6%;
   left: 30%;
+}
+
+.content h1 {
+  font-size: 26;
 }
 
 .content p {
   text-align: justify;
   width: 95%;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 35px;
 }
 
@@ -123,3 +129,4 @@
   width: 95%;
   align-items: center;
 }
+
