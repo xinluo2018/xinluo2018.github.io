@@ -1,0 +1,12 @@
+
+body .selected_project .watnet img {
+  width: 80%; 
+  padding-top: 2%; 
+  padding-bottom: 10px;
+  }
+
+body .selected_project .watnet img:hover {
+  opacity: 0.85;
+  }
+
+

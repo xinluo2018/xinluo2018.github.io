@@ -1,7 +1,7 @@
 
 /* navigation bar */
 
-.head {
+body .head {
   background-color: white;
   position: fixed;
   width: 50%;
@@ -12,7 +12,7 @@
   border-radius: 40%;
 }
 
-.head li {
+body .head li {
   display: inline-block;
   margin-left: 0px;
   margin-right: 10px;
@@ -21,17 +21,17 @@
   padding: 10px;
 }
 
-.head li:hover {
+body .head li:hover {
   cursor: pointer;
   border-bottom: 1.5px solid #01228d;
 }
 
-.head li:active {
+body .head li:active {
   background-color: 1.5px solid #01228d;
 }
 
 
-.head a {
+body .head a {
   color: #01228d;
   text-decoration:none
 } 
