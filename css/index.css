@@ -1,0 +1,153 @@
+
+/* ------ nav section ------ */
+.nav {
+  display: flex;  
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .nav_menu {
+  display: grid;
+  grid-auto-flow: column;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin-top: 0.625rem;
+  margin-bottom: 0.625rem;
+  text-align: center;}
+}
+
+.hidden {
+  display: none;
+}
+
+/* nav botton and menu */
+@media (min-width: 768px) {
+  .md\:hidden {
+    display: none;}
+  .md\:block {
+    display: block;}
+}
+
+.nav_list {
+  padding: 0.625rem;
+  list-style-type: none;
+}
+
+/* ------ profile section ------ */
+
+.profile {
+  display: flex;
+  text-align: justify;
+  width: 100%;
+  margin-bottom: -1.2rem;
+}
+
+.profile_info {
+  margin-top: 2.5rem;
+  margin-right: 0.5rem;
+  float: left;
+  height: 20rem;
+  width: 78%;
+
+}
+
+.profile_tag {
+  width: 22%;
+  height: 100%;
+}
+
+.profile_tag_photo {
+  padding-top: 3.2rem;
+  text-align: center;
+  height: 65%;
+}
+
+.profile_tag_name {
+  font-size: 1.45em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.profile_tag_photo_size {
+  border-radius: 50%;
+  width: 8.5rem;
+}
+
+.profile_tag_title {
+  margin-top: -0.5rem;
+  text-align: center;
+  height: 25%;
+}
+
+.profile_tag_social {
+  font-size: 1.1rem;
+  margin-top: -0.6rem;
+  text-align: center;
+  height: 10%;
+  letter-spacing: .1em;
+}
+
+.profile_first_word {
+  float: left;
+  font-size: 3rem;
+  line-height: 3rem;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+/* ------ publication section ------ */
+.publication {
+    padding: 0.5rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(231, 235, 239);
+    align-items: center;
+    display: flex;
+}
+
+.pub_title {
+  color: black;
+}
+
+
+.pub_title :hover {
+  color: rgb(82 82 91);
+}
+
+
+.pub_img {
+  flex-basis: 10rem;
+}
+
+.pub_img_size {
+  max-width: 100%;
+}
+
+.pub_img :hover{
+  opacity: 0.8;
+}
+
+.pub_info {
+  flex-basis: 75%;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-top: 0.375rem;
+  margin-bottom: 0.375rem;
+}
+
+
+/* ------ fieldwork section ------ */
+
+.fieldwork {
+  display: flex;
+  text-align: justify;
+  align-items: center;
+  padding: 0.5rem;
+  padding-top: 0rem;
+  background-color: rgb(231, 235, 239);
+}
+
+.field_202207_img {
+  width: 32%;
+  padding: 0.1rem;
+}

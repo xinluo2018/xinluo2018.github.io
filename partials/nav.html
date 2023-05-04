@@ -1,0 +1,35 @@
+<meta charset="utf-8">
+<link rel="stylesheet" href="../css/nav.css"/>
+<link rel="stylesheet" href="../css/common.css"/>
+<script type="text/javascript" src="../js/Common.js"></script>
+
+<nav >
+  <div class="container nav">
+    <div> <a href="../index.html" class="text-2xl text-zinc-600">Xin Luo Homepage</a> </div>
+    <!-- nav botton -->
+    <button type="button" onclick="toggleMenu()" class="md:hidden">
+    <svg class="h-6" viewBox="0 0 20 20" >
+      <path d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 
+            1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0"> </path>
+    </svg>
+    </button>
+
+    <!-- nav menu -->
+    <div class="hidden md:block" id="navbar-default">
+      <!-- <ul class="grid md:grid-flow-col text-lg margin_0625 text-center"> -->
+        <ul class="nav_menu">
+        <li class="nav_list">
+          <a class="text-zinc-600" href="../modules/publication.html">Publication</a>
+        </li>
+        <li class="nav_list">
+          <a class="text-zinc-600" href="../modules/funding.html">Funding</a>
+        </li>
+        <li class="nav_list">
+          <a class="text-zinc-600" href="../modules/fieldwork.html">Fieldwork</a>
+        </li>
+
+      </ul>
+    </div>
+
+  </div>
+</nav>

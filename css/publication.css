@@ -1,0 +1,16 @@
+.my_name {
+  text-decoration: underline;
+  /* font-weight: bolder; */
+  
+}
+
+.publication a {
+  color: rgb(1, 139, 193);
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.publication a:hover {
+  border-bottom: 1px solid rgba(9, 0, 55, 0.979);
+}
+

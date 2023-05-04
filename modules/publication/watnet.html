@@ -1,0 +1,78 @@
+<html>
+ <head>
+  <title>Publication</title>
+  <link rel="stylesheet" href="../../css/common.css"/>
+  <link rel="stylesheet" href="../../css/index.css"/>
+</head>
+
+<main class="container" >
+  <!-- navigation -->
+  <body>
+    <nav>
+      <div class="nav">
+        <div> <a href="../../index.html" class="text-2xl text-zinc-600">Xin Luo Homepage</a> </div>
+        <!-- nav botton -->
+        <button type="button" onclick="toggleMenu()" class="md:hidden">
+        <svg class="h-6" viewBox="0 0 20 20" >
+          <path d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 
+                1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0"> </path>
+        </svg>
+        </button>  
+        <!-- nav menu -->
+        <div class="hidden md:block" id="navbar-default">
+          <!-- <ul class="grid md:grid-flow-col text-lg margin_0625 text-center"> -->
+            <ul class="nav_menu">
+            <li class="nav_list">
+              <a class="text-zinc-600" href="../../modules/publication.html">Publication</a>
+            </li>
+            <li class="nav_list">
+              <a class="text-zinc-600" href="../../modules/funding.html">Funding</a>
+            </li>
+            <li class="nav_list">
+              <a class="text-zinc-600" href="../../modules/fieldwork.html">Fieldwork</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </body>
+
+<!-- comtent -->
+<body>
+  <div class="watnet">
+    <h1 class="text-center">An applicable and automatic method for earth surface water mapping based on multispectral images</h1>
+    <p class="text-center text-bold">
+      [<a href="https://doi.org/10.1016/j.jag.2021.102472">Paper</a> 
+      <a href="https://github.com/xinluo2018/WatNet">Code</a> 
+      <a href="https://zenodo.org/record/5205674">Data</a>]
+    </p>
+
+    <p>
+        This paper is about surface water mapping by using deep learning method. 
+    </p>
+
+    <h2>- Model</h2>
+    <p>We use Deeplabv3+ with MobileNetv2 backbone as the main model structure, additionly, some simple yet effective modifications are designed for improving the satellite image-based surface water mapping.</p>
+    <img src="../../img/publicationImg/watnet/watnet_structure.png">
+
+    <h2>- Dataset</h2>
+    <p style="text-align: left;">Surface water dataset for Deep learning could be downloaded from Zenodo.<p>
+    <img src="../../img/publicationImg/watnet/dataset.png">
+    <img src="../../img/publicationImg/watnet/label_sam_1.png", style="width: 48%; margin-top: 4%;">&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="../../img/publicationImg/watnet/label_sam_2.png", style="width: 48%;">
+
+    <h2>- Performance</h2>
+    <h3>-- Accuracy for surface water mapping</h3>
+    <img src="../../img/publicationImg/watnet/accuracy-compare.png">
+    <h3>-- Examples for surface water mapping</h3>
+    <h4>Urab Region</h4>
+    <img src="../../img/publicationImg/watnet/urban-test.png">
+    <h4>Cloudy Region</h4>
+    <img src="../../img/publicationImg/watnet/cloudy-test.png">
+    <h4>Mountainous region</h4>
+    <img src="../../img/publicationImg/watnet/mountain-test.png">
+  </div>
+
+</body>
+</main>
+</html>

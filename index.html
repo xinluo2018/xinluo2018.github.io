@@ -1,0 +1,135 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/common.css"/>
+  <link rel="stylesheet" href="css/index.css"/>
+  <script type="text/javascript" src="js/common.js"></script>
+  <link rel="stylesheet" href="css/font-awesome/css/all.css"/>    
+  <title>Xin Luo Homepage</title>  
+</head>
+
+<main class="container" >
+<!-- navigation -->
+<body>
+  <nav >
+    <div class="container nav">
+      <div> <a href="index.html" class="text-2xl text-zinc-600">Xin Luo Homepage</a> </div>
+      <!-- nav botton -->
+      <button type="button" onclick="toggleMenu()" class="md:hidden">
+      <svg class="h-6" viewBox="0 0 20 20" >
+        <path d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 
+              1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0"> </path>
+      </svg>
+      </button>  
+      <!-- nav menu -->
+      <div class="hidden md:block" id="navbar-default">
+        <!-- <ul class="grid md:grid-flow-col text-lg margin_0625 text-center"> -->
+          <ul class="nav_menu">
+          <li class="nav_list">
+            <a class="text-zinc-600" href="modules/publication.html">Publication</a>
+          </li>
+          <li class="nav_list">
+            <a class="text-zinc-600" href="modules/funding.html">Funding</a>
+          </li>
+          <li class="nav_list">
+            <a class="text-zinc-600" href="modules/fieldwork.html">Fieldwork</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</body>
+
+</body>
+<!-- prifile -->
+<div class="profile">
+  <div class="profile_info">
+    <p><span class="profile_first_word">Hi</span>, I am Xin Luo. I received my Ph.D. degree from Tongji University in 2019, 
+      and now I am an associate professor in the School of Earth Sciences at Yunnan 
+      University. My research interests include remote sensing techniques (e.g., multispectral/hyperspectral 
+      image processing and SAR/Lidar altimetry data processing), the machine 
+      learning/deep learning techniques, and the related applications in hydrology and 
+      cryosphere.</p>
+      <b>Email</b>: <i>xinluo_xin@ynu.edu.cn</i> <br>
+      <b>Address</b>: <i>room 1327, School of Earth Sciences, Chenggong Campus, Yunnan University Kunming, 650500, China.</i>
+  </div>
+  <div class="profile_tag">
+    <div class="profile_tag_photo">
+    <img class="profile_tag_photo_size" src="img/photo_xinluo.png"/> 
+    </div>
+    <div class="profile_tag_title">
+    <p class="profile_tag_name">Xin Luo (罗新)</p>
+    <p style="font-size: 1rem; margin-top: -1rem;">Yunnan University</p>
+    </div>
+
+    <div class="profile_tag_social">
+      <a class="fab fa-github" href="https://github.com/xinluo2018"></a>        
+      <a class="fab fa-weibo" href="https://weibo.com/u/3653127390"></a>          
+      <a class="fab fa-zhihu" href="https://www.zhihu.com/people/luo411795604"></a>       
+      <a class="fab fa-google" href="https://scholar.google.com/citations?user=v2uxgQMAAAAJ&hl=zh-CN"></a>       
+
+    </div>
+  </div>
+</div>
+
+<!-- News -->
+<h2 class="text-red">News</h2>
+<div class="news">
+  <p> 
+  2023.3.28 -> A paper was accepted by the IJDE journal (<a href="modules/publication/tibet_water_2020.html"><i>Publication</i></a>).<br>
+  2022.7.22 -> Geographical field practice teaching for undergraduated students (<a href="modules/fieldwork.html"><i>Fieldwork</i></a>). <br>  
+  2021.12.1 -> A paper was published on the JAG journal (<a href="modules/publication/watnet.html"><i>Publication</i></a>).
+  </p> 
+</div>
+
+
+<!-- selected publication -->
+<h2>Selected Publications</h2>
+  <div class="publication">
+    <div class="pub_img"> <a href="modules/publication/watnet.html"><img class="pub_img_size" src="img/publicationImg/watnet/watnet_structure.png"/> </a></div>
+    <div class="pub_info">
+      <b class="pub_title"><a class="text-black" href="modules/publication/watnet.html">An applicable and automatic method for earth surface water mapping based on multispectral images.</a></b> <br>
+      <u>Xin Luo</u> Xiaohua Tong, Zhongwen Hu <br>
+      <div>
+        <span><i>International Journal of Applied Earth Observation and Geoinformation, 2021</i></span>
+      </div>
+      [<i><b><a href = "https://doi.org/10.1016/j.jag.2021.102472">Paper</a></i></b>]
+      [<i><b><a href = "https://github.com/xinluo2018/WatNet">Code</a></i></b>]
+      [<i><b><a href = "https://zenodo.org/record/5205674#.YsppVexBwbk">Data</a></i></b>]
+    </div>
+  </div>
+
+  <div class="publication">
+    <div class="pub_img"> <a href="modules/publication/tibet_water_2020.html"> <img class="pub_img_size" src="img/publicationImg/tibet-water-2020/water_trend.png"/> </a> </div>
+    <div class="pub_info">
+      <b class="pub_title"><a class="text-black" href="modules/publication/tibet_water_2020.html"> Investigating the seasonal dynamics of surface water over the Qinghai-Tibet Plateau using Sentinel-1 imagery and a novel gated multiscale ConvNet.</a></b><br>
+      <u>Xin Luo</u>, Zhongwen Hu, Lin Liu <br>
+      <div>
+        <span><i>International Journal of Digital Earth, 2023</i></span>
+      </div>
+      [<i><b><a href = "https://doi.org/10.1080/17538947.2023.2198266">Paper</a></i></b>]
+      [<i><b><a href = "https://github.com/xinluo2018/Tibet-Water-2020.git">Code</a></i></b>]
+      [<i><b><a href = "https://doi.org/10.5281/zenodo.7768932">Data</a></i></b>]
+    </div>
+  </div>
+
+<!-- Filedwork -->
+<h2>Filedwork</h2>
+<div class="fieldwork">
+  <div>
+    <h3>2022.7.22-2022.7.27: Geographical field practice teaching</h3>
+      <img class="field_202207_img" src="img/202207_field_teaching/yuanjiang-1.jpeg">
+      <img class="field_202207_img" src="img/202207_field_teaching/yuanjiang-2.jpeg">
+      <img class="field_202207_img" src="img/202207_field_teaching/yuanjiang-3.jpeg"> <br>
+      <img class="field_202207_img" src="img/202207_field_teaching/xinping-1.jpeg">
+      <img class="field_202207_img" src="img/202207_field_teaching/xinping-2.jpeg">
+      <img class="field_202207_img" src="img/202207_field_teaching/xinping-3.jpeg">
+  </div>    
+</div>
+
+
+
+</body>
+</main>
+
+</html>

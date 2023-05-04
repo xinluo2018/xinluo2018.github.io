@@ -1,0 +1,85 @@
+
+/* ------ univsersal setting ------ */
+html {
+  font-family: BlinkMacSystemFont;
+}
+
+a {
+  text-decoration: inherit;
+  --tw-text-opacity: 1;
+  color: rgb(30 64 175 / var(--tw-text-opacity));
+}
+
+a:hover {
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity));
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  letter-spacing: .03em;
+  background-color: rgb(245 245 245);
+}
+
+
+@media (min-width: 45rem) {
+  .container {
+    max-width: 45rem;
+    width: 100%;
+    line-height: 1.7;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+/* text size, color and position */
+/* size */
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+
+/* color */
+.text-zinc-600 {
+  color: rgb(82 82 91)
+}
+
+.text-black {
+  color: rgb(0 0 0)
+}
+
+.text-red {
+  color: rgb(255 0 0);
+}
+
+
+/* postion */
+.text-center {
+  text-align: center;
+}
+
+
+
+.underline {
+  text-decoration: underline;  
+}
+
