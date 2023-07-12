@@ -147,7 +147,8 @@
   background-color: rgb(231, 235, 239);
 }
 
-.field_202207_img {
-  width: 32%;
-  padding: 0.1rem;
+.field_img {
+  width: 13.5rem;
+  height: 9rem;
+  padding: 0.4rem;
 }
